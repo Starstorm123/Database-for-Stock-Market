@@ -1,0 +1,43 @@
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+
+.form-container {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Custom font size for h1 */
+h1 {
+    font-size: 3rem; /* Change the value as needed */
+}
+.form-label {
+    font-size: 1.25rem; /* Change the value as needed */
+}
+.form-select {
+    font-size: 1.25rem; /* Change the value as needed */
+}
+/* style.css */
+
+/* Increase font size of the label */
+label {
+    font-size: 1.2rem; /* Change the value as needed */
+}
+
+/* Increase button size */
+.btn-primary {
+    padding: 0.5rem 1rem; /* Adjust padding to increase button size */
+}
